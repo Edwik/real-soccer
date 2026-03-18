@@ -1,5 +1,9 @@
 import { NextResponse } from "next/server";
 
+export const runtime = "nodejs";
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 const SPORTS_MAP = {
   "uefa.champions": "soccer_uefa_champs_league",
   "esp.1": "soccer_spain_la_liga",
